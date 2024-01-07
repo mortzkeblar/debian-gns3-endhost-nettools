@@ -16,7 +16,7 @@ Based in `debian:12-slim`
 - netstat
 - hostname
 - isc-dhcp-server
-- dhcp-client
+- dhcpcd
 - nmap
 - arp-scan
 - curl
