@@ -1,6 +1,6 @@
 # debian-gns3-enduser-nettools
 
-Debian docker image with a variety of network tools. This can be especially useful if you need end devices for GNS for example.
+Debian docker image with a variety of network tools. This can be especially useful if you need end devices for GNS3 for example.
 
 Based in `debian:12-slim`
 
