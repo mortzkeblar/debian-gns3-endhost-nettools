@@ -4,6 +4,12 @@ Debian docker image with a variety of network tools. This can be especially usef
 
 Based in `debian:12-slim`
 
+### Docker Pull Command
+
+``` bash
+docker pull mortzkeb/debian-gns3-enduser-nettools
+```
+
 ## Available commands and programs
 - ip
 - ifconfig
