@@ -21,7 +21,6 @@ docker pull mortzkeb/debian-gns3-enduser-nettools
 - bridge
 - netstat
 - hostname
-- isc-dhcp-server
 - dhcpcd
 - nmap
 - arp-scan
