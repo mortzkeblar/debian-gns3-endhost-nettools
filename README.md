@@ -7,7 +7,7 @@ Based in `debian:12-slim`
 ### Docker Pull Command
 
 ``` bash
-docker pull mortzkeb/debian-gns3-enduser-nettools
+docker pull mortzkeb/debian-gns3-endhost-nettools
 ```
 
 ## Available commands and programs
