@@ -10,6 +10,6 @@ RUN apt-get update \
     && apt-get -y clean \ 
     && rm -rf /var/lib/apt/lists/* /var/cache/apt/*
 
-CMD ["sh", "-c", "tail -f /dev/null"]
+CMD ["fish"]
                   
     
