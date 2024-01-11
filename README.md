@@ -1,10 +1,10 @@
 # debian-gns3-endhost-nettools
 
-Debian docker image with a variety of network tools. This can be especially useful if you need end host for GNS3 or EVE-NG for example.
+Debian docker image with a variety of network tools (available in [Docker Hub](https://hub.docker.com/r/mortzkeb/debian-gns3-endhost-nettools)). This can be especially useful if you need end host for GNS3 or EVE-NG for example.
 
 Based in `debian:12-slim`
 
-### Docker Pull Command
+### Docker Pull Command 
 
 ``` bash
 docker pull mortzkeb/debian-gns3-endhost-nettools
@@ -33,6 +33,7 @@ docker pull mortzkeb/debian-gns3-endhost-nettools
 - sftp 
 - ufw
 - iptables
+- traceroute
 
 and more! 
 
