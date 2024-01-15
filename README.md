@@ -37,3 +37,13 @@ docker pull mortzkeb/debian-gns3-endhost-nettools
 
 and more! 
 
+# Troubleshooting 
+## Start DHCP client at startup
+By default, when starting a container, the `/etc/network/interfaces` file does not start any configuration for IP assignment because all its lines are commented out. 
+
+GNS3 allows us to enter the `interfaces` file before starting the container and modify the file to allow, for example, the DHCP client to start sending discover requests or to assign a static IP to the container. 
+
+`Right click on the container -> Click on 'Edit config'`
+![](.images/dhcp_gns3.png)
+
+It is rare but it can happen that the changes do not occur, as happened to David Bombal in this [video](https://youtu.be/Rltdel1tG-I?t=34), in that case, you can start the container and access with `nano` to edit directly the `interfaces` file. Then they shut down and bring up the container again. 
