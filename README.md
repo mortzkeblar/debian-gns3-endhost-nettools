@@ -39,6 +39,9 @@ and more!
 
 # Troubleshooting 
 ## Start DHCP client at startup
+
+**UPDATE: when starting a host, DHCP is now enabled by default. Which would leave this section deprecated.** 
+
 By default, when starting a container, the `/etc/network/interfaces` file does not start any configuration for IP assignment because all its lines are commented out. 
 
 GNS3 allows us to enter the `interfaces` file before starting the container and modify the file to allow, for example, the DHCP client to start sending discover requests or to assign a static IP to the container. 
