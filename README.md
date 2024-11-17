@@ -34,13 +34,13 @@ docker pull mortzkeb/debian-gns3-endhost-nettools
 - ufw
 - iptables
 - traceroute
+- fping
+- iperf
 
 and more! 
 
 # Troubleshooting 
-## Start DHCP client at startup
-
-**UPDATE: when starting a host, DHCP is now enabled by default. Which would leave this section deprecated.** 
+## Start DHCP client at startup in GNS3
 
 By default, when starting a container, the `/etc/network/interfaces` file does not start any configuration for IP assignment because all its lines are commented out. 
 
